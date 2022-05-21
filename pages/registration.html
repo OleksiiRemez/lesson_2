@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Регистрация</title>
+</head>
+
+<body>
+
+    <h1>Регистрация</h1>
+
+    <div>
+        <a href="../index.html">Главная</a>
+        <a href="articles.html">Статьи</a>
+        <a href="catalog.html">Каталог</a>
+        <a href="contacts.html">Контакты</a>
+        <a href="gallery.html">Галерея</a>
+        <a href="page-nav.html">Навигация</a>
+    </div>
+
+    <form action="https://tests.fomenko.top/echo/index.php" method="get">
+
+        <fieldset>
+
+            <legend>Форма реєстрації</legend>
+
+            <div>
+                <label for="surname">Прізвище</label>
+                <input id="surname" name="surname" placeholder="Прізвище" type="text">
+            </div>
+
+            <div>
+                <label for="name">Ім'я</label>
+                <input id="name" name="name" placeholder="Ім'я" type="text">
+            </div>
+
+            <div>
+                <label for="second-name">По-батькові</label>
+                <input id="second-name" name="second-name" placeholder="По-батькові" type="text">
+            </div>
+
+            <div>
+                <label for="file">Завантажити фото</label>
+                <input id="file" name="file" type="file">
+            </div>
+
+            <div>
+                <label for="e-mail">Введіть e-mail</label>
+                <input id="e-mail" name="e-mail" placeholder="e-mail" type="email">
+            </div>
+
+            <div>
+                <label for="password">Введіть пароль</label>
+                <input id="password" name="password" placeholder="password" type="password">
+            </div>
+
+            <div>
+                <label for="site">Введіть ваш сайт</label>
+                <input id="site" name="site" value="mysite.name" type="text">
+            </div>
+
+            <div>
+                <label for="sex-male">Чоловіча стать</label>
+                <input id="sex-male" name="sex" value="male" type="radio">
+            </div>
+
+            <div>
+                <label for="sex-female">Жіноча стать</label>
+                <input id="sex-female" name="sex" value="female" type="radio">
+            </div>
+
+            <div>
+                <label for="date">Дата народження</label>
+                <input id="date" name="date" type="date">
+            </div>
+
+            <p>Які страви Вам найбільше смакують?</p>
+
+            <div>
+                <input checked id="kitchen-ua" name="kitchen-ua" type="checkbox" value="ua">
+                <label for="kitchen-ua">Українські</label>
+            </div>
+
+            <div>
+                <input id="kitchen-jp" name="kitchen-jp" type="checkbox" value="jp">
+                <label for="kitchen-jp">Японські</label>
+            </div>
+
+            <div>
+                <input id="kitchen-ch" name="kitchen-ch" type="checkbox" value="ch">
+                <label for="kitchen-ch">Китайські</label>
+            </div>
+
+            <div>
+                <label for="txt">Додаткова інформація</label>
+                <textarea cols="30" id="txt" name="txt" placeholder="Введите информацию о себе..." rows="10"></textarea>
+            </div>
+
+            <div><button type="submit">Відправити реєстрацію</button></div>
+
+            <div><button type="reset">Очистити форму</button></div>
+
+        </fieldset>
+
+    </form>
+
+    <footer>
+        <p>&#169; Алексей Ремез</p>
+    </footer>
+
+</body>
+
+</html>
